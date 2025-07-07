@@ -1,0 +1,12 @@
+general.import = ["~/.cache/wal/colors.toml"]
+
+[window]
+padding = {x = 15, y = 15}
+decorations = "None"
+opacity = 0.95
+
+[font]
+size = 12
+
+
+
