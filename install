@@ -1,0 +1,21 @@
+#! /bin/bash
+
+install_packages() {
+    header "Installing packages..."
+    sudo apt install -y \
+        i3 alacritty feh xcompmgr fastfetch
+}
+
+install_pywal() {
+    header "Installing pywal..."
+    pipx install pywal16
+}
+
+#copy_dotfiles() {
+ #   header "Copying dotfiles..."
+  #  sudo mkdir
+
+
+
+install_packages
+install_pywal
